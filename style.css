@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5cafe7;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 500px;
+    background-color: #82cef9;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+
+.weather-info {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.weather-input {
+
+   text-align: center;
+   align-self: center;
+   margin: 20px;
+   border-radius: 20px;
+   height: 30px;
+   width: 200px;
+   
+}
+
+.img-card {
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    height: 300px;
+    width: 500px;
+}
+
